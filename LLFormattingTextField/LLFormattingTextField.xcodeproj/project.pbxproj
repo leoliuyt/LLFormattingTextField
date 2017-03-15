@@ -13,6 +13,7 @@
 		6B43EEAD1E790E110037C3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43EEAB1E790E110037C3FC /* Main.storyboard */; };
 		6B43EEAF1E790E110037C3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B43EEAE1E790E110037C3FC /* Assets.xcassets */; };
 		6B43EEB21E790E110037C3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43EEB01E790E110037C3FC /* LaunchScreen.storyboard */; };
+		6B43EEBB1E790EDD0037C3FC /* LLFormattingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43EEBA1E790EDD0037C3FC /* LLFormattingTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6B43EEAE1E790E110037C3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B43EEB11E790E110037C3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B43EEB31E790E110037C3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43EEB91E790EDD0037C3FC /* LLFormattingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFormattingTextField.h; sourceTree = "<group>"; };
+		6B43EEBA1E790EDD0037C3FC /* LLFormattingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFormattingTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				6B43EEB01E790E110037C3FC /* LaunchScreen.storyboard */,
 				6B43EEB31E790E110037C3FC /* Info.plist */,
 				6B43EEA21E790E110037C3FC /* Supporting Files */,
+				6B43EEB91E790EDD0037C3FC /* LLFormattingTextField.h */,
+				6B43EEBA1E790EDD0037C3FC /* LLFormattingTextField.m */,
 			);
 			path = LLFormattingTextField;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				6B43EEAA1E790E110037C3FC /* ViewController.m in Sources */,
 				6B43EEA71E790E110037C3FC /* AppDelegate.m in Sources */,
+				6B43EEBB1E790EDD0037C3FC /* LLFormattingTextField.m in Sources */,
 				6B43EEA41E790E110037C3FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

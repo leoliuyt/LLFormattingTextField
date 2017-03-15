@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "LLFormattingTextField.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet LLFormattingTextField *formatTextField;
 
 @end
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.formatTextField.supportInputType = ESupportInputTypeDigitAndAlpha;
+    self.formatTextField.separatorSymbol = @" ";
 }
 
 
